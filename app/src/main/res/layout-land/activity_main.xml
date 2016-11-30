@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.hakeemsackes_bramble.tictactoe.MainActivity"
+    android:background="@color/colorAccent"
+    android:gravity="center">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose a position"
+        android:textAlignment="center"
+        android:textSize="30dp"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@color/black"
+        android:paddingBottom="@dimen/lines">
+
+
+
+        <Button
+            android:text="@string/noNulls"
+            android:id = "@+id/position_1"
+            android:onClick="setPosition"
+            android:layout_width="@dimen/small_square_size"
+            android:layout_height="@dimen/small_square_size"
+            android:background="@color/colorAccent"
+            android:textSize="40dp"
+            android:gravity="center"
+            android:layout_marginRight="@dimen/lines"
+            />
+
+        <Button
+            android:text="@string/noNulls"
+            android:id = "@+id/position_2"
+            android:onClick="setPosition"
+            android:layout_width="@dimen/small_square_size"
+            android:layout_height="@dimen/small_square_size"
+            android:background="@color/colorAccent"
+            android:textSize="40dp"
+            android:gravity="center"
+            android:layout_marginRight="@dimen/lines"
+            android:layout_marginLeft="@dimen/lines"/>
+        <Button
+            android:text="@string/noNulls"
+            android:id = "@+id/position_3"
+            android:onClick="setPosition"
+            android:layout_width="@dimen/small_square_size"
+            android:layout_height="@dimen/small_square_size"
+            android:background="@color/colorAccent"
+            android:textSize="40dp"
+            android:gravity="center"
+            android:layout_marginLeft="@dimen/lines"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@color/black"
+        android:paddingBottom="@dimen/lines"
+        android:paddingTop="@dimen/lines">
+
+
+        <Button
+            android:text="@string/noNulls"
+            android:id = "@+id/position_4"
+            android:onClick="setPosition"
+            android:layout_width="@dimen/small_square_size"
+            android:layout_height="@dimen/small_square_size"
+            android:background="@color/colorAccent"
+            android:textSize="40dp"
+            android:gravity="center"
+            android:layout_marginRight="@dimen/lines"
+
+            />
+        <Button
+            android:text="@string/noNulls"
+            android:id = "@+id/position_5"
+            android:onClick="setPosition"
+            android:layout_width="@dimen/small_square_size"
+            android:layout_height="@dimen/small_square_size"
+            android:background="@color/colorAccent"
+            android:textSize="40dp"
+            android:gravity="center"
+            android:layout_marginRight="@dimen/lines"
+            android:layout_marginLeft="@dimen/lines"/>
+        <Button
+            android:text="@string/noNulls"
+            android:id = "@+id/position_6"
+            android:onClick="setPosition"
+            android:layout_width="@dimen/small_square_size"
+            android:layout_height="@dimen/small_square_size"
+            android:background="@color/colorAccent"
+            android:textSize="40dp"
+            android:gravity="center"
+            android:layout_marginLeft="@dimen/lines"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@color/black"
+        android:paddingTop="@dimen/lines">
+
+
+        <Button
+            android:text="@string/noNulls"
+            android:id = "@+id/position_7"
+            android:onClick="setPosition"
+            android:layout_width="@dimen/small_square_size"
+            android:layout_height="@dimen/small_square_size"
+            android:background="@color/colorAccent"
+            android:textSize="40dp"
+            android:gravity="center"
+            android:layout_marginRight="@dimen/lines"
+            />
+        <Button
+            android:text="@string/noNulls"
+            android:id = "@+id/position_8"
+            android:onClick="setPosition"
+            android:layout_width="@dimen/small_square_size"
+            android:layout_height="@dimen/small_square_size"
+            android:background="@color/colorAccent"
+            android:textSize="40dp"
+            android:gravity="center"
+            android:layout_marginRight="@dimen/lines"
+            android:layout_marginLeft="@dimen/lines"/>
+        <Button
+            android:text="@string/noNulls"
+            android:id = "@+id/position_9"
+            android:onClick="setPosition"
+            android:layout_width="@dimen/small_square_size"
+            android:layout_height="@dimen/small_square_size"
+            android:background="@color/colorAccent"
+            android:textSize="40dp"
+            android:gravity="center"
+            android:layout_marginLeft="@dimen/lines"/>
+    </LinearLayout>
+</LinearLayout>
